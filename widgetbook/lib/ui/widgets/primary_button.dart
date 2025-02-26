@@ -8,3 +8,9 @@ import 'package:widgetbook_annotation/widgetbook_annotation.dart';
 
 // TODO: Implement the PrimaryButton use-case
 // DESIGN: https://www.figma.com/design/HsANkdhbsCNTkXBzNJRNLD/Groceries-Demo?node-id=7235-4663&t=N6qwmLP7MP59ClWB-4
+@UseCase(name: 'Default', type: PrimaryButton)
+Widget primaryButtonUserCase(BuildContext context) {
+  return PrimaryButton(
+    content: context.knobs.string(label: 'Content', initialValue: 'Button'),
+  );
+}
