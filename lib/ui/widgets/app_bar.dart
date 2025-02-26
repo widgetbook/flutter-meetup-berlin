@@ -1,0 +1,34 @@
+import 'package:flutter/widgets.dart' hide Icon;
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+import '../ui.dart';
+
+class AppBar extends StatelessWidget {
+  const AppBar({
+    super.key,
+    required this.title,
+  });
+
+  final String title;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.symmetric(
+        vertical: AppTheme.of(context).spacing.xs,
+        horizontal: AppTheme.of(context).spacing.sm,
+      ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        spacing: AppTheme.of(context).spacing.xs,
+        children: [
+          Text(
+            title,
+            style: AppTheme.of(context).typography.subheadingLarge,
+          ),
+          const Icon(FontAwesomeIcons.bell),
+        ],
+      ),
+    );
+  }
+}

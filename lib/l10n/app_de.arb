@@ -1,0 +1,16 @@
+{
+  "fruitsHeadline": "Früchte",
+  "unit": "Stück",
+  "basketContinueToShipping": "Weiter zum Versand",
+  "basketHeadline": "Einkaufskorb",
+  "basketTotal": "Gesamtsumme",
+  "basketSubtotal": "Zwischensumme",
+  "basketDelivery": "Versand",
+  "basketEmpty": "Dein Einkaufskorb ist leer",
+  "basketEmptyMessage": "Der Einkaufskorb öffnet das Tor zu einer Welt voller grenzenloser Möglichkeiten und wartet geduldig auf deine Auswahl, um zum Leben erweckt zu werden.",
+  "startShopping": "Beginn mit dem Einkauf",
+  "navigationShopLabel": "Shop",
+  "navigationBasketLabel": "Warenkorb",
+  "navigationUserLabel": "Nutzer",
+  "createdBy": "Erstellt von Widgetbook"
+}
