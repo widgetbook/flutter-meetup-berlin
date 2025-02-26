@@ -19,9 +19,7 @@ class PrimaryButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MouseRegion(
-      cursor: onPressed == null
-          ? SystemMouseCursors.forbidden
-          : SystemMouseCursors.click,
+      cursor: onPressed == null ? SystemMouseCursors.forbidden : SystemMouseCursors.click,
       child: GestureDetector(
         onTap: onPressed,
         child: Container(
@@ -34,7 +32,7 @@ class PrimaryButton extends StatelessWidget {
                 ? AppTheme.of(context).background.primaryInactive
                 : AppTheme.of(context).background.brand,
             borderRadius: BorderRadius.circular(
-              AppTheme.of(context).radius.none,
+              AppTheme.of(context).radius.full,
             ),
           ),
           child: Row(
